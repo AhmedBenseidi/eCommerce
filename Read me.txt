@@ -1,0 +1,80 @@
+# 🚀 Gluten_Free_Market
+
+ website built using PHP, MySQL, Bootstrap, jQuery, HTML, and CSS.
+
+---
+
+## 🛠 Requirements
+
+- PHP 7+
+- MySQL
+- Apache Server (XAMPP / WAMP / Laragon)
+
+---
+
+## 📥 Installation
+
+### 1. Download Project
+
+Clone the repository:
+
+git clone https://github.com/AhmedBenseidi/eCommerce.git
+
+Or download ZIP and extract it.
+
+---
+
+### 2. Move Project Folder
+
+Place the project inside:
+
+XAMPP:
+C:\xampp\htdocs\
+
+WAMP:
+C:\wamp\www\
+
+---
+
+### 3. Create Database
+
+1. Open:
+http://localhost/phpmyadmin
+
+2. Create a new database (example: project_db)
+
+3. Import the file:
+market.sql Frome db Folder
+
+---
+
+### 4. Configure Database Connection
+
+Open config.php and update:
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "project_db";
+
+---
+
+### 5. Run Project
+
+Open in browser:
+
+http://localhost/project-folder
+
+---
+
+## 🔐 Default Admin (If Available)
+
+User Name: ahmed  
+Password: 123
+
+---
+
+## 📌 Notes
+
+- Make sure Apache and MySQL are running.
+- Update database credentials for production.
